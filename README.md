@@ -2,6 +2,8 @@
 
 A solution to the [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea) challenge on [roadmap.sh](https://roadmap.sh).
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-blue?style=for-the-badge&logo=vercel)](https://naprikot.github.io/restricted-textarea/) 
+
 ## The Challenge
 
 Create a textarea that tracks and displays the number of characters typed by the user in real-time, along with a maximum character limit. Once the limit is reached, the textarea must prevent further input, and the border must turn red to visually indicate the limit has been hit.
