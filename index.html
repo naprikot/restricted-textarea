@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restricted Textarea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="wrap">
+    <div class="textarea-group">
+      
+      <div class="header-row">
+        <label for="message">Your Message</label>
+        <span class="char-counter" id="counter" aria-live="polite">
+          <span id="current-count">0</span> / <span id="max-count">250</span>
+        </span>
+      </div>
+      
+      <textarea 
+        id="message" 
+        name="message" 
+        rows="6" 
+        maxlength="250" 
+        placeholder="Type something here..."
+        aria-describedby="counter"
+      ></textarea>
+      
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
